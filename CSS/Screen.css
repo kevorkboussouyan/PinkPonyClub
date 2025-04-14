@@ -45,10 +45,13 @@ header h1 {
 }
 
 header p {
-  font-size: 1.4rem;
+  font-size: 1.6rem; /* Slightly larger font */
   font-style: italic;
-  opacity: 0.9;
-  text-shadow: 2px 2px 4px #00000080;
+  opacity: 0.95;
+  text-shadow: 2px 2px 5px #00000080;
+  color: #ffccff; /* Softer, playful color */
+  line-height: 1.8; /* More spacing for readability */
+  animation: bounce 2s infinite; /* Add a fun bounce animation */
 }
 
 /* Navigation bar */
@@ -103,6 +106,16 @@ section h2 {
   border-bottom: 2px solid #b00060;
   display: inline-block;
   padding-bottom: 5px;
+}
+
+/* Center specific sections */
+.centered-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  text-align: center;
+  flex-direction: column;
 }
 
 /* Form styling */
